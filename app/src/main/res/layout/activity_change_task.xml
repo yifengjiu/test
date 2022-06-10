@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChangeTask">
+
+    <Button
+        android:id="@+id/intime"
+        android:layout_width="270dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="368dp"
+        android:layout_marginBottom="184dp"
+        android:backgroundTint="#00BCD4"
+        android:text="选择时间"
+        app:layout_constraintBottom_toTopOf="@+id/makesure"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/chname3"
+        android:layout_width="79dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="428dp"
+        android:text="具体时间："
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/intimedetial"
+        android:layout_width="270dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="428dp"
+        android:layout_marginBottom="184dp"
+        android:backgroundTint="#00BCD4"
+        android:text="选择时间"
+        app:layout_constraintBottom_toTopOf="@+id/makesure"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/CHfail"
+        android:layout_width="399dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="632dp"
+        android:backgroundTint="#00BCD4"
+        android:text="关闭任务"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="6dp" />
+
+    <TextView
+        android:id="@+id/chname2"
+        android:layout_width="79dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="368dp"
+        android:text="结束时间："
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/invalue"
+        android:layout_width="264dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/chname"
+        android:layout_width="79dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="284dp"
+        android:text="重要等级："
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Chback"
+        android:layout_width="399dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="4dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#00BCD4"
+        android:text="取消"
+        app:layout_constraintTop_toBottomOf="@+id/Chmakesure"
+        tools:layout_editor_absoluteX="6dp" />
+
+    <Button
+        android:id="@+id/Chmakesure"
+        android:layout_width="399dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="528dp"
+        android:backgroundTint="#00BCD4"
+        android:text="确定"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="6dp" />
+
+    <TextView
+        android:id="@+id/Chname"
+        android:layout_width="79dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="196dp"
+        android:text="名称:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inname"
+        android:layout_width="264dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="415dp"
+        android:layout_height="157dp"
+        app:srcCompat="@drawable/backchange"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="5dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
